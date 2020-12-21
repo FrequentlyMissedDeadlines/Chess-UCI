@@ -22,6 +22,10 @@ jobs:
       - uses: actions/setup-java@v1
         with:
           java-version: 1.8
+      - name: Push coverage report to codecov
+        run: bash <(curl -s https://codecov.io/bash)
+        env:
+          CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       - name: Publish package
         run: mvn --batch-mode deploy
         env:
