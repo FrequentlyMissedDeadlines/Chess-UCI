@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.frequentlymisseddeadlines</groupId>
     <artifactId>chess-uci</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.24-SNAPSHOT</version>
+
+    <scm>
+        <connection>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</connection>
+        <url>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</url>
+        <developerConnection>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
 
     <distributionManagement>
         <repository>
@@ -37,7 +43,6 @@
     </dependencies>
 
     <build>
-        <finalName>maven-code-coverage</finalName>
         <plugins>
             <plugin>
                 <groupId>org.jacoco</groupId>
@@ -78,6 +83,13 @@
                         </configuration>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
+                <configuration>
+                    <scmCommentPrefix>[release agent]</scmCommentPrefix>
+                </configuration>
             </plugin>
         </plugins>
     </build>
