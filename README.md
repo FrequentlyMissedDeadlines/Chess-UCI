@@ -1,5 +1,6 @@
 ![](doc/Header.png)
-
+![Build](https://github.com/FrequentlyMissedDeadlines/Chess-UCI/workflows/Build/badge.svg?branch=main)
+![Release](https://github.com/FrequentlyMissedDeadlines/Chess-UCI/workflows/Release/badge.svg?branch=main)
 # Description
 
 This is a Java library to handle UCI Chess Protocol. Add this dependency to your chess engine and it will be usable in most Chess GUI:
