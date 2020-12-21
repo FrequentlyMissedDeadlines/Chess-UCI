@@ -24,13 +24,13 @@ jobs:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
       - name: Setup git
         run: git config user.email "frequentlymisseddeadlines+ciagent@gmail.com" && git config user.name "ci-agent"
+      - name: Set env
+        run: echo "RELEASE_VERSION=$(git describe --abbrev=0)" >> $GITHUB_ENV  
       - name: Publish package
         run: mvn release:clean release:prepare release:perform
         env:
           GITHUB_ACTOR: FrequentlyMissedDeadlines
           GITHUB_TOKEN: ${{ secrets.PAT_CD }}
-      - name: Set env
-        run: git describe --abbrev=0 && echo "RELEASE_VERSION=$(git describe --abbrev=0)" >> $GITHUB_ENV
       - uses: "marvinpinto/action-automatic-releases@latest"
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
