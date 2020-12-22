@@ -4,13 +4,13 @@
 
     <groupId>com.frequentlymisseddeadlines</groupId>
     <artifactId>chess-uci</artifactId>
-    <version>1.31-SNAPSHOT</version>
+    <version>1.31</version>
 
     <scm>
         <connection>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</connection>
         <url>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</url>
         <developerConnection>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>1.31</tag>
     </scm>
 
     <distributionManagement>
