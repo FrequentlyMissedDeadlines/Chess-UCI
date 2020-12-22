@@ -4,7 +4,7 @@
 
     <groupId>com.frequentlymisseddeadlines</groupId>
     <artifactId>chess-uci</artifactId>
-    <version>1.29-SNAPSHOT</version>
+    <version>1.30-SNAPSHOT</version>
 
     <scm>
         <connection>scm:git:https://github.com/FrequentlyMissedDeadlines/Chess-UCI.git</connection>

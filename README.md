@@ -5,6 +5,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FrequentlyMissedDeadlines/Chess-UCI?include_prereleases)
 [![Github All Releases](https://img.shields.io/github/downloads/FrequentlyMissedDeadlines/Chess-UCI/total.svg?style=flat)]()
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+
 # Description
 
 This is a Java library to handle UCI Chess Protocol. Add this dependency to your chess engine and it will be usable in most Chess GUI:
