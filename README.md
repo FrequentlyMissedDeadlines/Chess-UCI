@@ -1,10 +1,11 @@
 ![](doc/Header.png)
 ![Build](https://github.com/FrequentlyMissedDeadlines/Chess-UCI/workflows/Build/badge.svg?branch=main)
 ![Release](https://github.com/FrequentlyMissedDeadlines/Chess-UCI/workflows/Release/badge.svg?branch=main)
-[![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/Chuck-Norris-Chess/branch/main/graph/badge.svg?token=YWGXGYVL4D)](https://codecov.io/gh/FrequentlyMissedDeadlines/Chuck-Norris-Chess)
+[![codecov](https://codecov.io/gh/FrequentlyMissedDeadlines/Chess-UCI/branch/main/graph/badge.svg?token=X3VV3M0HHZ)](https://codecov.io/gh/FrequentlyMissedDeadlines/Chess-UCI)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/FrequentlyMissedDeadlines/Chess-UCI?include_prereleases)
 [![Github All Releases](https://img.shields.io/github/downloads/FrequentlyMissedDeadlines/Chess-UCI/total.svg?style=flat)]()
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+[![](https://tokei.rs/b1/github/FrequentlyMissedDeadlines/Chess-UCI?category=code)](https://github.com/FrequentlyMissedDeadlines/Chess-UCI)
 
 # Description
 
